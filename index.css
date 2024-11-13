@@ -1,0 +1,51 @@
+body {
+    background-image: url("train.jpg");
+    background-size: cover;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    text-shadow: 2px 2px 3px black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px #8ecae6;
+}
+
+#increment-btn {
+    background: #219ebc;
+}
+
+#save-btn {
+    background: #ffb703;
+}
+
+.container{
+    padding: 70px ;
+    max-width: 80%;
+    margin: auto;
+}
+
+#save-el{
+    font-weight: bold;
+}
