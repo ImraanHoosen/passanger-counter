@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("train.jpg");
     background-size: cover;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -41,13 +45,9 @@ button {
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 15px 15px ;
     max-width: 70%;
-    margin: 70px auto;
+    margin: 30px auto;
     border: 10px solid red;
     background: rgba(255, 255, 255, 0.2); /* White with transparency */
     backdrop-filter: blur(10px); /* Applies the blur effect */
