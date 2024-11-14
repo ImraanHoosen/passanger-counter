@@ -8,6 +8,10 @@ function increment() {
 }
 
 function save() {
+      if (count === 0) {
+        alert("No Passenger Onboard"); // Show alert if count is 0
+        return; // Exit the function if no passenger is boarded
+}
     let countStr = count + " - "
     saveEl.textContent += countStr
     countEl.textContent = 0
