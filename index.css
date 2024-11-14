@@ -66,6 +66,7 @@ button {
     border-radius: 10px; /* Optional: smooth edges */
     padding: 20px; /* Space inside the div */
     color: #fff; /* Text color */
+    box-shadow: 3px 3px 5px black;
 }
 
 #save-el{
