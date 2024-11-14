@@ -9,7 +9,7 @@ function increment() {
 
 function save() {
       if (count === 0) {
-        alert("No Passenger Onboard"); // Show alert if count is 0
+        alert("No Passengers Onboard"); // Show alert if count is 0
         return; // Exit the function if no passenger is boarded
 }
     let countStr = count + " - "
