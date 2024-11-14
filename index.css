@@ -38,29 +38,31 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 15px;
-    box-shadow: 3px 5px 5px #8ecae6;
 }
 
 #increment-btn {
     background: #219ebc;
+    box-shadow: 3px 3px 3px black;
 }
 
 #save-btn {
     background: #ffb703;
+    box-shadow: 3px 3px 3px black;
 }
 
 #reset-btn{
     background: red;
+    box-shadow: 3px 3px 3px black;
 }
 
 .container{
     padding: 15px 15px ;
     max-width: 80%;
     margin: 30px auto;
-    background: rgba(255, 255, 255, 0.2); /* White with transparency */
+    background: rgba(172, 232, 248, 0.2); /* White with transparency */
     backdrop-filter: blur(10px); /* Applies the blur effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: add a subtle border */
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Optional: add a subtle border */
     border-radius: 10px; /* Optional: smooth edges */
     padding: 20px; /* Space inside the div */
     color: #fff; /* Text color */
