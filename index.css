@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,11 +49,14 @@ button {
     background: #ffb703;
 }
 
+#reset-btn{
+    background: red;
+}
+
 .container{
     padding: 15px 15px ;
-    max-width: 70%;
+    max-width: 80%;
     margin: 30px auto;
-    border: 10px solid red;
     background: rgba(255, 255, 255, 0.2); /* White with transparency */
     backdrop-filter: blur(10px); /* Applies the blur effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
